@@ -1,18 +1,16 @@
 # HW #1
 
-Header
-- class for links
-
-Customers List: 
-- show only active customers
-- add "Add" button, right-top
-- add "Show Active", "Show Passive" button, left-top
-- hide delete button for isDeleted=true customers
-- pagination: 10 items per page
-
-Customer Edit:
-- use date picker!
-- add delete button. btn-danger, w/ confirmation
+- Header
+ - class for links
+- Customers List: 
+ - show only active customers
+ - add "Add" button, right-top
+ - add "Show Active", "Show Passive" button, left-top
+ - hide delete button for isDeleted=true customers
+ - pagination: 10 items per page
+- Customer Edit:
+ - use date picker!
+ - add delete button. btn-danger, w/ confirmation
 
 
 ## Some Links
