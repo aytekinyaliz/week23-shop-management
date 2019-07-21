@@ -1,14 +1,10 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
-import { createBrowserHistory } from "history";
 
 import CustomersList from '../customers/List'
 import CustomerItem from '../customers/Item'
 import Products from '../products/List'
 import Invoices from '../invoices/List'
-
-
-const history = createBrowserHistory();
 
 const main = () =>
    <Switch>

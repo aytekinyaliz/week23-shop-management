@@ -11,9 +11,7 @@ export function getById(id) {
 
 
 export function update(customer) {
-   const { id, ...rest } = customer;
-
-   const cust = customers.find(c => c.id === id);
+   const cust = customers.find(c => c.id === customer.id);
 
    cust.firstName = customer.firstName;
    cust.lastName = customer.lastName;
